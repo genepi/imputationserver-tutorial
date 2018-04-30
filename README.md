@@ -1,38 +1,37 @@
-# Michigan Imputationserver
+# Michigan Imputation Server
 
-A step by step tutorial for the TOPMed Workshop on 1th May 2018 in Ann Arbor.
+A step by step tutorial for the TOPMed Workshop (April 30 - May 1 2018, Ann Arbor).
+
+## Contact
 
 [Sebastian Schoenherr](mailto:sebastian.schoenherr@i-med.ac.at) and [Lukas Forer](mailto:lukas.forer@i-med.ac.at)
 
 ## Warm up
 
-1. Please  [register](https://imputationserver.sph.umich.edu/index.html#!pages/register) an user account to use Michigan Imputation Server
-2. We send an activation mail to the provided address
-3. Please follow the instructions on the email to activate your account
+1. Please [register](https://imputationserver.sph.umich.edu/index.html#!pages/register) an user account
+2. An activation link is sent to the provided email address
+3. Please verify your account using the activation link
 4. Download the following sample data:
-  - [chr20.unphased.hg38.vcf.gz](https://imputationserver.sph.umich.edu/static/downloads/test-data/chr20.unphased.hg38.vcf.gz)
   - [chr20.unphased.vcf.gz](https://imputationserver.sph.umich.edu/static/downloads/test-data/chr20.unphased.vcf.gz)
-  - [chrX.unphased.vcf.gz](https://imputationserver.sph.umich.edu/static/downloads/test-data/chrX.unphased.vcf.gz)
-
 
 ## Login
 
 1. Please [login](https://imputationserver.sph.umich.edu/index.html#!pages/login) with your credentials
-2. Click on the **Run** tab to start a new  job
+2. Click on the **Run** tab to start a new job
 3. The following submission dialog appears:
 ![](images/image02.png)
 
 
 ## Start your first job
 
-1. Select as reference panel **1000 Genomes Phase 3 (Version 5)**
+1. Select as a reference panel **1000 Genomes Phase 3 (Version 5)**
 2. Click on **Select Files** and upload the sample file [chr20.unphased.vcf.gz](https://imputationserver.sph.umich.edu/static/downloads/test-data/chr20.unphased.vcf.gz)
-3. Accept our terms and conditions by clicking on the checkboxes
-4. Click on **Submit Job** to start imputation
+3. Accept our terms and conditions
+4. Click on **Submit Job** to start your imputation
 
 ## Quality control
 
-In a first step we check if your uploaded files are valid and we calculate some basics statistics such as #samples, chromosomes and SNPs.
+In a first step we check if your uploaded GWAS data are valid and calculate some basics statistics such as number of samples, chromosomes and SNPs.
 
 ![](images/input-validation.png)
 
@@ -51,7 +50,7 @@ All filtered variants are listed in a file called `statistics.txt` which can be 
 
 ## Download a single file
 
-1. If imputation was done, we compress and encrypt your data and send you a random password via mail.
+1. If imputation has finsihed, we compress and encrypt your data and send you a one time password via email.
 
 2. A zip archive including the results can be downloaded directly from the server by clicking on the filenames in the **Results** tab.
 
@@ -69,4 +68,4 @@ All filtered variants are listed in a file called `statistics.txt` which can be 
 
 ## Get access to TOPMed reference panel
 
-Write an email to cfuchsb@umich.edu to get access to the TopMed panel.
+Write an email to cfuchsb@umich.edu to get access to the TOPMed panel.
