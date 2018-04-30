@@ -1,6 +1,6 @@
 # Michigan Imputationserver
 
-A step by step tutorial for the TOPMed Workshop on 20. April 2018 in Ann Arbor.
+A step by step tutorial for the TOPMed Workshop on 1th May 2018 in Ann Arbor.
 
 [Sebastian Schoenherr](mailto:sebastian.schoenherr@i-med.ac.at) and [Lukas Forer](mailto:lukas.forer@i-med.ac.at)
 
