@@ -47,7 +47,7 @@ In this step we check each variant and exclude it in case of:
 
 All filtered variants are listed in a file called `statistics.txt` which can be downloaded by clicking on the provided link.
 
-    ![](images/qc.png)
+![](images/qc.png)
 
 ## Download a single file
 
@@ -55,7 +55,7 @@ All filtered variants are listed in a file called `statistics.txt` which can be 
 
 2. A zip archive including the results can be downloaded directly from the server by clicking on the filenames in the **Results** tab.
 
-     ![](images/downloads02.png)
+   ![](images/downloads02.png)
 
 ## Download all results at once
 
