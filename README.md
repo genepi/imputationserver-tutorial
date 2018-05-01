@@ -1,11 +1,3 @@
-# Michigan Imputation Server
-
-A step by step tutorial for the TOPMed Workshop (April 30 - May 1 2018, Ann Arbor).
-
-## Contact
-
-[Sebastian Schoenherr](mailto:sebastian.schoenherr@i-med.ac.at) and [Lukas Forer](mailto:lukas.forer@i-med.ac.at)
-
 ## Warm up
 
 1. Please [register](https://imputationserver.sph.umich.edu/index.html#!pages/register) a new user account
@@ -67,3 +59,7 @@ All filtered variants are listed in a file called `statistics.txt` which can be 
 ## Get access to the TOPMed reference panel
 
 Write an email to [Christian](mailto:cfuchsb@umich.edu).
+
+## Contact us
+
+[Sebastian Schoenherr](mailto:sebastian.schoenherr@i-med.ac.at) and [Lukas Forer](mailto:lukas.forer@i-med.ac.at)
