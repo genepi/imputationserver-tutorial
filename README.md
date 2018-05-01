@@ -8,16 +8,16 @@ A step by step tutorial for the TOPMed Workshop (April 30 - May 1 2018, Ann Arbo
 
 ## Warm up
 
-1. Please [register](https://imputationserver.sph.umich.edu/index.html#!pages/register) an user account
+1. Please [register](https://imputationserver.sph.umich.edu/index.html#!pages/register) a user account
 2. An activation link is sent to the provided email address
-3. Please verify your account using the activation link
+3. Verify your account using the activation link
 4. Download the following sample data:
   - [chr20.unphased.vcf.gz](https://imputationserver.sph.umich.edu/static/downloads/test-data/chr20.unphased.vcf.gz)
 
 ## Login
 
-1. Please [login](https://imputationserver.sph.umich.edu/index.html#!pages/login) with your credentials
-2. Click on the **Run** tab to start a new job
+1. Please [login](https://imputationserver.sph.umich.edu/index.html#!pages/login)
+2. Click on the **Run** tab to start a new job (Note: Select the Minimac4 Workflow!)
 3. The following submission dialog appears:
 ![](images/image02.png)
 
@@ -25,8 +25,8 @@ A step by step tutorial for the TOPMed Workshop (April 30 - May 1 2018, Ann Arbo
 ## Start your first job
 
 1. Select as a reference panel **1000 Genomes Phase 3 (Version 5)**
-2. Click on **Select Files** and upload the sample file [chr20.unphased.vcf.gz](https://imputationserver.sph.umich.edu/static/downloads/test-data/chr20.unphased.vcf.gz)
-3. Accept our terms and conditions
+2. Click on **Select Files** and upload the sample data [chr20.unphased.vcf.gz](https://imputationserver.sph.umich.edu/static/downloads/test-data/chr20.unphased.vcf.gz)
+3. Accept the terms and conditions
 4. Click on **Submit Job** to start your imputation
 
 ## Quality control
@@ -35,7 +35,7 @@ In a first step we check if your uploaded GWAS data are valid and calculate some
 
 ![](images/input-validation.png)
 
-In this step we check each variant and exclude it in case of:
+Several checks are executed. Please have a look at the [pipeline details](http://imputationserver.readthedocs.io/en/latest/pipeline/). A variant is excluded in case of:
 
 1. contains invalid alleles
 2. duplicates
@@ -50,22 +50,22 @@ All filtered variants are listed in a file called `statistics.txt` which can be 
 
 ## Download a single file
 
-1. If imputation has finsihed, we compress and encrypt your data and send you a one time password via email.
+1. If imputation has finished, we compress and encrypt your data and send you a one-time password via email.
 
-2. A zip archive including the results can be downloaded directly from the server by clicking on the filenames in the **Results** tab.
+2. A zip archive including the results (info, dosage file) can be downloaded directly from the server by clicking on the filename in the **Results** tab.
 
    ![](images/downloads02.png)
 
 ## Download all results at once
 
-1. To download all files of a folder (for example folder **Imputation Results**) you can click on the **share** symbol of the folder:
+1. To download all files (e.g. **Imputation Results**) you can click on the **share** symbol of the folder:
 
    ![](images/downloads04.png)
 
-2. A new dialog appears which provides you all private links at once. Click on the tab  **wget commands** to get copy & paste ready commands that can be used on Linux or MacOS to download all files:
+2. A new dialog appears which provides you all private links at once. Click on the tab  **wget commands** to get copy & paste ready commands. These commands can be used on Linux or MacOS to download all files:
 
    ![](images/share02.png)
 
-## Get access to TOPMed reference panel
+## Get access to 5he TOPMed reference panel
 
-Write an email to cfuchsb@umich.edu to get access to the TOPMed panel.
+Write an email to [Christian](mailto:cfuchsb@umich.edu).
