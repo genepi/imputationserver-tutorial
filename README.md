@@ -1,3 +1,7 @@
+# Michigan Imputation Server
+
+This step-by-step tutorial will show you how to impute your GWAS data using Michigan Imputation Server. The latest documentation is available [here](http://imputationserver.readthedocs.io/en/latest/pipeline/).
+
 ## Warm up
 
 1. Please [register](https://imputationserver.sph.umich.edu/index.html#!pages/register) a new user account
