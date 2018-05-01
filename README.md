@@ -12,8 +12,9 @@ This step-by-step tutorial will show you how to impute your GWAS data using Mich
 
 1. Please [login](https://imputationserver.sph.umich.edu/index.html#!pages/login)
 2. Click on the **Run** tab to start a new job (**Note:** Select the new Minimac4 Workflow!)
+   ![](images/minimac4.png)
 3. The following submission dialog appears:
-![](images/image02.png)
+![](images/minimac4-form.png)
 
 
 ## Start your first job
