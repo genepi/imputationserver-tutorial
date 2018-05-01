@@ -10,6 +10,7 @@ A step by step tutorial for the TOPMed Workshop (April 30 - May 1 2018, Ann Arbo
 
 1. Please [register](https://imputationserver.sph.umich.edu/index.html#!pages/register) a new user account
 2. Verify your account using the activation link (sent by email)
+3. Download the test data: [chr20.unphased.vcf.gz](https://imputationserver.sph.umich.edu/static/downloads/test-data/chr20.unphased.vcf.gz)
 
 ## Login
 
